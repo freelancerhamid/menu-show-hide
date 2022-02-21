@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.crl{
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,li{
+    list-style: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+/* =======================
+    common css ends
+========================= */
+
+#navbar-bg{
+    background: burlywood;
+    height: 60px;
+}
+
+#navbar-bg .navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-bg .navbar .logo{
+    width: 170px;
+}
+
+#navbar-bg .navbar .logo img{
+    width: 100%;
+    padding-top: 20px;
+}
+
+#navbar-bg .navbar .menu-list{
+    width: 800px;
+}
+
+#navbar-bg .navbar .menu-list ul{
+    display: flex;
+    justify-content: flex-end;
+    line-height: 60px;
+}
+
+#navbar-bg .navbar .menu-list ul li{
+    padding-right: 20px;
+}
+
+#navbar-bg .navbar .menu-list ul li:last-child{
+    padding-right: 0px;
+}
+
+#navbar-bg .navbar .menu-list ul li a{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #3d3c3c;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+#navbar-bg .navbar .menu-list ul li a:hover{
+    color: rgb(226, 43, 43);
+    background: rgb(223, 160, 79);
+}
+
+#navbar-bg .navbar .socila-icon{
+    width: 200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#navbar-bg .navbar .socila-icon a{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    background: blanchedalmond;
+    font-size: 18px;
+    color: black;
+} 
+
+#navbar-bg .navbar .socila-icon a:hover{
+    color: blueviolet;
+    background: chartreuse;
+}
+
